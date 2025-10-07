@@ -17,6 +17,8 @@ public:
     void setSide(double s);
 
     double area() const;
+    double perimeter() const;
+
 
 
 };

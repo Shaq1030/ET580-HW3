@@ -18,6 +18,9 @@ void Square::setSide(double s){
 double Square::area() const {
     return side * side;
 }
+double Square::perimeter() const {
+    return 4 * side;
+}
 
 void print(const Square& sq) {
     std::cout <<"Square Area: " << sq.area() << std::endl;
