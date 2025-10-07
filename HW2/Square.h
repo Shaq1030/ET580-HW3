@@ -1,20 +1,26 @@
+//melanie kwak 
+//Task 2
+
 #ifndef SQUARE_H
 #define SQUARE_H
-//Giankarlo Task 2
-class Square {
+class Square{
 private:
-    double side;
+    double side; //length of one side
 
 public:
-    Square();              // Default constructor
-    Square(double s);   
+    Square();
+
+    Square(double s);
 
     double getSide() const;
+
     void setSide(double s);
 
     double area() const;
-    double perimeter() const;
+
+
 };
 
+void print(const Square& sq);
 
-#endif
+#endif 
